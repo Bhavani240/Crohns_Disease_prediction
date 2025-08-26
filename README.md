@@ -1,18 +1,30 @@
 🩺 Crohn’s Disease Prediction using Machine Learning
 📌 Overview
 
-This project was carried out during my internship at NIT Warangal, under the guidance of Dr. Raju Bhukya.
-It focuses on early, non-invasive prediction of Crohn’s Disease using raw 16S rRNA microbiome sequence data. By applying alignment-free k-mer encoding and advanced machine learning techniques, the project demonstrates how computational biology can aid in faster and more accurate disease detection.
+This project was developed during my internship at NIT Warangal, under the guidance of Dr. Raju Bhukya.
+It focuses on predicting Crohn’s Disease using raw 16S rRNA microbiome sequence data through alignment-free k-mer encoding and machine learning models. The goal is to provide a non-invasive, computational approach for early detection.
 
-🔬 Key Highlights
+🔬 Key Features
 
-📂 Processed raw microbiome sequences using k-mer encoding & De Bruijn graphs
+✅ Preprocessing of raw microbiome sequences (16S rRNA)
 
-🤖 Implemented multiple machine learning models (AdaBoost, Gradient Boosting, CatBoost, Random Forest, etc.)
+✅ Alignment-free k-mer encoding with De Bruijn graph representation
 
-📊 Achieved 83% accuracy with AdaBoost – outperforming baseline models
+✅ Implemented multiple Machine Learning models:
 
-💡 Showcased the potential of alignment-free ML approaches for Crohn’s Disease diagnostics
+AdaBoost (Best Accuracy: 83%)
+
+Gradient Boosting
+
+CatBoost
+
+Random Forest
+
+Voting Classifier
+
+Passive Aggressive Classifier, etc.
+
+✅ Evaluation using Accuracy, Precision, Recall, F1-Score, ROC-AUC
 
 🛠 Tech Stack
 
@@ -22,15 +34,22 @@ Libraries: scikit-learn, Pandas, NumPy, Matplotlib, Seaborn
 
 Dataset: Public microbiome repositories (NCBI, ENA)
 
-🚀 Future Scope
+📊 Results
 
-Integration of multi-omics data (metagenomics, transcriptomics, proteomics)
+AdaBoost Classifier achieved the highest accuracy (83%)
 
-Use of explainable AI for biological marker discovery
+Ensemble models like Gradient Boosting and CatBoost also performed well
 
-Deployment as a clinical decision support tool
+Demonstrated the effectiveness of alignment-free ML methods for Crohn’s Disease prediction
+
+🚀 Future Enhancements
+
+Integration of multi-omics datasets (metabolomics, transcriptomics, proteomics)
+
+Use of explainable AI to interpret biological markers
+
+Deployment as a real-time diagnostic tool
 
 🤝 Acknowledgment
 
-This work was completed as part of my internship at NIT Warangal, under the valuable guidance of Dr. Raju Bhukya.
-
+This project was completed as part of my internship at NIT Warangal, under the valuable guidance of Dr. Raju Bhukya.
