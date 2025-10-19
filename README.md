@@ -19,13 +19,13 @@ AdaBoost (Best Accuracy: 83%)
 
 Gradient Boosting
 
-CatBoost
+Bagging
 
-Random Forest
+CNN
 
 Voting Classifier
 
-Passive Aggressive Classifier, etc.
+DenseNet, etc.
 
 ✅ Evaluation using Accuracy, Precision, Recall, F1-Score, ROC-AUC
 
@@ -41,7 +41,7 @@ Dataset: Public microbiome repositories (NCBI, ENA)
 
 AdaBoost Classifier achieved the highest accuracy (83%)
 
-Ensemble models like Gradient Boosting and CatBoost also performed well
+Ensemble models like Gradient Boosting and VotingClassifier also performed well
 
 Demonstrated the effectiveness of alignment-free ML methods for Crohn’s Disease prediction
 
